@@ -1,0 +1,24 @@
+La Máquina de vending dispone de: 
+	-Doce articulos que se elegiran por codigos, numerados del 1 al 12.
+	-Un teclado con las teclas numericas (0 - 9), una tecla "ok" y una tecla "dev".
+	-Una pantalla donde se refleja el codigo que se ha escrito como la cantidad de dinero introducido.
+	
+La maquina solo recoje los dos ultimos numeros introducidos por el teclado, es decir si introducimos 1234 la
+pantalla solo reflejara 34.
+ 
+Para introducir un numero se tecleará el mismo y despues la tecla "ok".
+
+Si se introduce un valor fuera del rango (1-12) se devolvera por pantalla el mensaje "¡ERROR!".
+
+Si se introduce un valor valido y:
+	-El contador de dinero esta a 0: Se mostrará el precio del porducto con dicho código.
+	-El contador de dinero es inferior al del producto con ese código: Se mostrara la cantidad que 
+		queda por pagar.
+	-El contador de dinero es exacto al del producto con ese código: Se pondrá el contador de dinero a 0
+		y se activara el mecanismo para que salga el producto.
+	-El contador de dinero es mayor al del producto con ese código: Se comprueba que hay monedas para 
+		devolver el cambio y de ser así se devolverá el cambio y el producto, sino, se mostrará por 
+		pantalla "Cambio insuficiente" y se devolverá el dinero introducido. En ambos casos se pondra 
+		el contador de dinero a 0.
+
+Si se introduce dinero y se pulsa la tecla "Dev" se devolverá el dinero introducido.

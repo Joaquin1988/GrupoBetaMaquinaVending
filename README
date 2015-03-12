@@ -1,0 +1,16 @@
+
+Proyecto sobre una máquina de vending o máquina exprendedora para la asignatura 
+	Introduccion a Ingeniería del software (UMA).
+
+Componentes del grupo:
+	-Jose Adrián Martín Jaimez
+	-Joaquín Romero Sánchez
+	-Alberto Sánchez Gutierrez
+
+
+En el directorio 'cliente' se encuentran los archivos de la máquina de vending propuesta por nuestro grupo (Beta)
+	en la que actuamos como clientes.
+
+En el directorio 'desarrollador' se encuentra los archivos de la máquina de vending propuesta por otro grupo (Alfa) y en
+	la cual actuamos como desarrolladores.
+
