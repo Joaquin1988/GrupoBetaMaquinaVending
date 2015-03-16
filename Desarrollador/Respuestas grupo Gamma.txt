@@ -1,0 +1,54 @@
+1.-)¿Qué mecanismo de venta usaréis? (Muelle de acero, gancho…)
+	El mecanismo que usaremos será el de muelle de acero ya que es el que menos porcentaje de fallo tiene.
+
+2.-)¿Qué tipo de ítems vais a vender? ¿Qué tamaño tendrán estos?
+	El tipo de ítems que se venderán serán los siguientes:
+	Snacks que no necesiten refrigeración.
+
+3.-)En caso de quedaros fuera de stock; ¿Cómo llevaréis a cabo la reposición de un ítem?
+	La máquina está conectada por línea telefónica con la empresa, en el momento que quede menos de 5 unidades mande un aviso para comunicar que tiene escasez de dicho producto para que nunca se quede sin existencias.
+
+4.-)¿Qué medidas tendrá vuestra máquina?
+	De altura tendrá 1,8 metros.
+	De ancho 0,9 metros.
+	De profundidad 0,8 metros.
+
+5.-)Tenéis un método de devolución de monedas ,pero ;¿Qué haría la máquina en caso de quedarse sin ellas?(Ejemplo : la máquina no tiene monedas de 5,10,20 ó 50 céntimos. El usuario mete 1€; y compra un ítem de 40 céntimos).
+	El método que hemos pensado es muy similar al de la pregunta 3, cada casillero de cada moneda tiene un contador que de la misma forma manda una notificación avisando de la baja existencia de un producto o de monedas.
+
+6.-)¿Cómo actuará la máquina frente a posibles errores? (Un ítem no cae)
+	Al elegir el mecanismo de la máquina pensamos en esta problemática, nosotros la hemos solucionado instalando un sensor de infrarrojos que detecte que ha caído un producto, si después de la compra no se ha detectado el producto activa de nuevo el mecanismo del muelle a menor velocidad hasta que caiga.
+
+7.-)¿Qué ocurre en caso de introducir un número sin haber introducido antes el dinero?
+	Aparece el precio del producto que se quiere comprar.
+
+7.1-)En caso de que muestre el valor del producto; ¿Si el usuario insertase el dinero en ese momento, sería expendido dicho ítem? 
+	Para comprar un producto es necesario primero introducir el dinero luego teclear el código del producto y darle a OK.
+
+8.-)¿Qué peso tendrá la máquina?
+	El peso aproximado sería de 120 kilos en vacío y 127,5 kilos lleno de monedas y productos.
+
+9.-)¿Qué tiempo de respuesta consideráis óptimo ?(Velocidad de ejecución)
+	El tiempo máximo que hemos considerado que tiene que tardar la máquina es de unos 0,3 segundos.
+
+10.-)¿Qué porcentaje de fiabilidad queréis alcanzar?(Tasa aceptable de fallos)
+	Queremos trabajar para acercanos al 100% de fiabilidad aunque por  problemas de hardware (desgaste del mecanismo expendedor, cuelgues del sistema operativo…) sea imposible.
+
+11.-)¿Qué capacidad de almacenamiento tendrá vuestra máquina de vending ? (Cuantos ítems habrá en cada “slot”)
+	En nuestra máquina tendremos un total de 10 paquetes de patatas (ya que ocupan más espacio) y 20 de chocolatinas. 
+
+12.-)¿Cual será el tiempo de reinicio después de un fallo?
+	Hemos estimado que el tiempo máximo que tiene que tardar nuestra máquina en reiniciarse debe ser inferior a 30 segundos.
+
+13.-)¿Tendréis algún sistema para asegurar que el producto no sufra daños cuando sea expendido?
+	Nuestra máquina no tiene productos que al dañarse sea imposible su consumo, de todas formas en la parte inferior de esta habrá una parte acolchada sobre la que caerá el producto
+
+14.-)¿De qué forma podrá el usuario coger el ítem solicitado? (Puerta, ranura, etcétera)
+	La máquina tendrá un sistema por infrarrojos en la bandeja de extracción de productos el cual determinará si se ha retirado o no, si no se ha sacado el ítem no dejará hacer otra función, en la pantalla aparecerá un mensaje diciendo que hay que retirar el producto.
+
+15.-)En caso de aceptar billetes;¿Cual sería el billete mas grande que vuestra máquina aceptaría? ¿Y la moneda mas pequeña?
+	El valor máximo que acepta nuestra máquina en billetes es de 10€ y en monedas aceptaría todas menos las de 1 y 2 céntimos.
+
+16.-)¿Cada cuanto tiempo será revisada la máquina?(Puesta a punto, renovación del cambio de la máquina, etcétera)
+	Mensualmente se revisará para una revisión rutinaria, para el problema del cambio ya lo hemos especificado en el punto 3.
+
