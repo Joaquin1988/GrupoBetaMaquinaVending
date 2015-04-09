@@ -1,16 +1,17 @@
 
-Proyecto sobre una m�quina de vending o m�quina exprendedora para la asignatura 
-	Introduccion a Ingenier�a del software (UMA).
+Proyecto sobre una máquina de vending o máquina exprendedora para la asignatura 
+	Introduccion a Ingeniería del software (UMA).
 
 Componentes del grupo:
-	-Jose Adri�n Mart�n Jaimez
-	-Joaqu�n Romero S�nchez
-	-Alberto S�nchez Gutierrez
+	-Jose Adrián Martín Jaimez
+	-Joaquín Romero Sánchez
+	-Alberto Sánchez Gutierrez
 
 
-En el directorio 'cliente' se encuentran los archivos de la m�quina de vending propuesta por nuestro grupo (Beta)
+En el directorio 'cliente' se encuentran los archivos de la máquina de vending propuesta por nuestro grupo (Beta)
 	en la que actuamos como clientes.
 
-En el directorio 'desarrollador' se encuentra los archivos de la m�quina de vending propuesta por otro grupo (Alfa) y en
+En el directorio 'desarrollador' se encuentra los archivos de la máquina de vending propuesta por otro grupo (Alfa) y en
 	la cual actuamos como desarrolladores.
 
+En el directorio "prototipo" se encuentran los archivos de nuestra futura máquina de vending
